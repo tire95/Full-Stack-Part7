@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RpIiwiaWQiOiI2MDMwMGJjM2Q0ZDA5ZTEyODBmMDZkMTQiLCJpYXQiOjE2MTQxNzM4ODZ9.bQIYaoT8snuxnaG5Ge7IkomaArTXldm-JyGvvvqqpko
+
+{
+    "title": "UUSI blogi",
+    "author": "testi",
+    "url": "www.AAA.com",
+    "likes": 666
+}
